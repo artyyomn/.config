@@ -1,0 +1,22 @@
+[general]
+#import = ["~/.config/alacritty/themes/tomorrow_night_bright.toml"]
+#import = ["~/.config/alacritty/themes/alabaster_dark.toml"]
+#import = ["~/.config/alacritty/themes/campbell.toml"]
+import = ["~/.config/alacritty/themes/github_dark_high_contrast.toml"]
+
+[window]
+padding.x = 0
+padding.y = 0
+decorations = "none"
+#opacity = 0.9
+#blur = true
+
+[font]
+normal = {family = "IosevkaTerm Nerd Font", style = "Medium"}
+bold = {family = "IosevkaTerm Nerd Font", style = "Bold"}
+italic = {family = "IosevkaTerm Nerd Font", style = "Italic"}
+size = 16
+
+[cursor]
+style.shape = "Block"
+style.blinking = "on"

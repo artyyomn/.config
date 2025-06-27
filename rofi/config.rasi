@@ -1,0 +1,19 @@
+configuration {
+    display-drun: "";
+    drun-display-format: "{icon} {name}";
+    show-icons: true;
+    font: "ZedMono Nerd Font 12";
+    modi: "drun,run,filebrowser,window";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    spacing: 0;
+    border: 0;
+}
+
+window {
+    border: 0;
+    width: 25%;
+}
