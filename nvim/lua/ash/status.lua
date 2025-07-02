@@ -7,13 +7,13 @@ opt.showmode = false
 cmd([[
 function! ModeName()
   let l:mode_map = {
-        \ 'n' : 'NOR',
-        \ 'i' : 'INS',
-        \ 'v' : 'VIS',
-        \ 'V' : 'VLINE',
-        \ "\<C-v>" : 'VBLOC',
-        \ 'c' : 'COM',
-        \ 'R' : 'REP',
+        \ 'n' : 'NORMAL',
+        \ 'i' : 'INSERT',
+        \ 'v' : 'VISUAL',
+        \ 'V' : 'V-LINE',
+        \ "\<C-v>" : 'V-BLOCK',
+        \ 'c' : 'COMMAND',
+        \ 'R' : 'REPLACE',
         \ 't' : 'TERM'
         \ }
   return get(l:mode_map, mode(), mode())

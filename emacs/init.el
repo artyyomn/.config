@@ -3,6 +3,7 @@
 (tool-bar-mode 0)
 (set-fringe-mode 0)
 (scroll-bar-mode 0)
+(pixel-scroll-precision-mode t)
 (global-display-line-numbers-mode t)
 (global-font-lock-mode t)
 (ido-mode t)
@@ -14,6 +15,9 @@
 (setq ido-show-dot-for-dired t)
 (setq inhibit-startup-screen t)
 
+;; (setq scroll-margin 5)
+(setq scroll-conservatively 1000)
+(setq scroll-preserve-screen-position t)
 (setq make-backup-files nil)
 (setq auto-save-default nil)
 (setq create-lock-files nil)
@@ -25,7 +29,7 @@
 
 (global-set-key (kbd "C-c c") 'compile)
 
-(set-face-attribute 'default nil :family "ZedMono Nerd Font"
+(set-face-attribute 'default nil :family "IosevkaNerdFont"
 					:height 150
 					:weight 'regular)
 

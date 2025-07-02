@@ -17,5 +17,4 @@ map('n', '<leader>t', function()
 	vim.cmd('startinsert')
 end)
 
---map('t', '<leader>t', '<C-\\><C-n>:q<CR>', opts)
 map('t', '<esc>', '<C-\\><C-n>', opts)

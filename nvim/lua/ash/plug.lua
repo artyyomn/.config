@@ -17,28 +17,24 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
+
 	{
 		'rebelot/kanagawa.nvim',
-		lazy = false,
 		priority = 1000,
-		config = function()
-			--vim.cmd("colorscheme kanagawa-dragon")
-		end
+		config= true,
 	},
 
     {
         'vague2k/vague.nvim',
-		lazy = false,
 		priority = 1000,
+		config = true,
     },
 
 	{  "rose-pine/neovim",
-		name = "rose-pine", 
-		lazy = false,
 		priority = 1000,
 		config = function()
 			--vim.cmd("colorscheme rose-pine")
-		end
+		end,
 	},
 
 	{

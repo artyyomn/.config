@@ -7,7 +7,6 @@ require("ash.status")
 require("ash.netrw")
 
 --vim.cmd("colorscheme quiet")
---vim.cmd("colorscheme lunaperche")
 vim.cmd("colorscheme vague")
 --vim.cmd("colorscheme retrobox")
 
@@ -15,3 +14,7 @@ vim.cmd("colorscheme vague")
 vim.opt.termguicolors = true
 vim.cmd [[highlight Normal guibg=NONE ctermbg=NONE]]
 vim.cmd [[highlight NormalNC guibg=NONE ctermbg=NONE]]
+vim.cmd [[highlight TabLineFill guibg=NONE ctermbg=NONE]]
+vim.cmd [[highlight TabLine guibg=NONE ctermbg=NONE]]
+vim.cmd [[highlight StatusLine guibg=NONE ctermbg=NONE]]
+vim.cmd [[highlight StatusLineNC guibg=NONE ctermbg=NONE]]
